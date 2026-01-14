@@ -1,44 +1,71 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
 # ClinicConnect – Dental Appointment System (Frontend)
 
-ClinicConnect is a role-based dental appointment booking system built as a real-world full stack project.
+## Live Demo
+https://clinicconnect-frontend.vercel.app
+
+ClinicConnect is a role-based dental appointment booking frontend built with React and Vite.  
+The project focuses on clean UI architecture, role-based navigation, and backend-ready integration.
+
+This repository contains the **frontend only**. Backend services will be added separately.
+
+---
 
 ## Tech Stack
 - React (Vite)
 - Tailwind CSS
-- React Router
-- JWT Authentication
-- Google OAuth (via backend)
+- React Router v6
+- Context API
+- Git & GitHub
+- Vercel (Deployment)
 
-## Features
-- Patient, Doctor, Admin roles
-- Email & password login
-- Google login
-- Appointment booking and management
-- Responsive UI
-- Backend-ready architecture
+---
 
-## Screenshots
-(Add 3–4 screenshots here)
+## Features (Current)
+- Public marketing pages (Home, Services, Dentists, Pricing, Gallery)
+- Authentication UI (Login / Register)
+- Role-based dashboards:
+  - Patient
+  - Doctor
+  - Admin
+- Protected routes
+- Appointment booking UI
+- Responsive layout with sidebar navigation
+- Deployed live on Vercel
 
-## Setup
+---
+
+## Project Structure
+src/
+├── components
+├── layouts
+├── pages
+├── context
+├── services
+├── data
+
+
+---
+
+## Getting Started (Local Setup)
+
 ```bash
 npm install
 npm run dev
 
+Future Work
+
+Spring Boot backend
+
+MySQL database
+
+JWT-based authentication
+
+Google OAuth login
+
+Email notifications
+
+SMS appointment reminders
+
+Author
+
+Anish Sawant
